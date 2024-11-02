@@ -1,0 +1,5 @@
+package com.javaweb.Service.Impl;
+
+public class BuildingServiceImpl {
+
+}

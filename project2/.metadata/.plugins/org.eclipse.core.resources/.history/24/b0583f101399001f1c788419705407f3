@@ -1,0 +1,19 @@
+package com.javaweb.Repository.impl;
+
+import java.util.List;
+
+import org.springframework.stereotype.Repository;
+
+import com.javaweb.Repository.BuildingRepository;
+import com.javaweb.Repository.Entity.BuildingEntity;
+@Repository
+public class BuildingRepositoryImpl implements BuildingRepository {
+     static final String DB_URL="jdbc:mysql://localhost:3307/estatebasic";
+     static final String USER="root";
+     static final String PASS="123456";
+     @Override
+	public List<BuildingEntity> findAll() {
+		
+		return null;
+	}
+}
